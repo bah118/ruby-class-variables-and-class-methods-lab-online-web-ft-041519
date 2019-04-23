@@ -39,7 +39,7 @@ class Song
       end
       
     end
-#    genre_histogram
+    genre_histogram
   end
   
 end
