@@ -33,7 +33,7 @@ class Song
      
       if @@genres.include?(genre)
         hash[genre] += 1 
-      elsif
+      else
         hash[genre] = 1 
       end
       
