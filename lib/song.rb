@@ -29,17 +29,17 @@ class Song
   end
   
   def self.genre_count
-    hash = {}
+    genre_histogram = {}
     @@genres.each do |genre|
 
-      if hash.has_key?(genre)
-        hash[genre] += 1 
+      if genre_histogram.has_key?(genre)
+        genre_histogram[genre] += 1 
       else
-        hash[genre] = 1 
+        genre_histogram[genre] = 1 
       end
       
     end
-    hash 
+#    genre_histogram
   end
   
 end
