@@ -28,10 +28,14 @@ class Song
   end
   
   def self.genre_count
-    
+    hash = {}
     @@genres.each do |genre|
+     
+      if @@genres.include?(genre)
+       
+      elsif
       
-      if genre
+      end
       
     end
     
