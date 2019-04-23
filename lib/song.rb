@@ -33,7 +33,7 @@ class Song
     @@genres.each do |genre|
     binding.pry 
       if @@genres.include?(genre)
-        hash[genre] += 1 
+        hash[genre] =+ 1 
       else
         hash[genre] = 1 
       end
