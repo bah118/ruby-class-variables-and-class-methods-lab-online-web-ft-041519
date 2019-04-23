@@ -38,7 +38,7 @@ class Song
       end
       
     end
-    
+    hash 
   end
   
 end
